@@ -1,0 +1,3 @@
+std_msgs/Header header
+uint32 destination_robot_id
+BowQuery queries

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>semantic_segmentation_publisher</name>
+  <version>0.0.0</version>
+  <description>The semantic_segmentation_publisher package</description>
+  <maintainer email="karthik@todo.todo">karthik</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>ros_numpy</build_depend>
+  <build_depend>nodelet</build_depend>
+  <build_depend>depth_image_proc</build_depend>
+  
+
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <exec_depend>ros_numpy</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>numpy</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>pcl</exec_depend>
+  <exec_depend>layers</exec_depend>
+  <build_depend>image_transport</build_depend> 
+  <exec_depend>image_transport</exec_depend> 
+  <exec_depend>depth_image_proc</exec_depend> 
+
+  <!-- Add the following line to include ros_numpy as a run dependency -->
+  <exec_depend>ros_numpy</exec_depend>
+
+  <!-- Add the following line to include sensor_msgs as a run dependency -->
+  <exec_depend>sensor_msgs</exec_depend>
+  <export>
+      <nodelet plugin="${prefix}/nodelet_plugins.xml"/>
+  </export>
+
+</package>

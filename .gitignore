@@ -1,0 +1,17 @@
+# Pickle files
+*.pkl
+
+# TensorFlow/Keras models
+*.h5
+
+# PyTorch models
+*.pt
+*.pth
+
+# Scikit-learn models
+*.joblib
+
+# Other large model files
+*.model
+*.bin
+
